@@ -41,6 +41,10 @@ jobs:
       python: 3.7
     - name: "CPython 3.8"
       python: 3.8
+    - arch: arm64
+      name: "CPython 3.8"
+      python: 3.8
+      
     - name: "PyPy 3"
       python: pypy3
     # Deploy source distribution
